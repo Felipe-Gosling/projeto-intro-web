@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="content-type" content="text/html">
+    <meta name="description" content="Projeto de Introdução a Web Turma: Labenu D, Aluno: Felipe
+    Gustavo">
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/corpo.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>LabeMovies</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <figure>
+            <img id="logo" src="img/logo.png" alt="Logo LabeMovies"/>
+            <h1>LabeMovies</h1>
+        </figure>
+        <nav>
+            <ul class="menuNavegacao">
+                <li>Filmes</li>
+                <li>Séries</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Pesquisa -->
+        <section class="pesquisa">
+            <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar por título">
+            <button name="botaoPesquisar">
+                <img src="/img/iconePesquisa.png" alt="">
+            </button>
+        </section>
+
+        <!-- Filmes/Séries -->
+        <section>
+            <h2>Filmes</h2>
+            <div>
+                <ul class="filme">
+                    <a href="https://youtu.be/NlqVxm0azMk" target="_blank"><img class="thumb" src="img/clubeDaLuta.jpg" alt="Poster do Filme Clube da Luta"></a>
+                </ul>
+                <ul class="filme">
+                    <a href="https://youtu.be/VJ6Dk2_dp7M" target="_blank"><img class="thumb" src="img/sonhoDeLiberdade.png" alt="Poster do Filme Um Sonho de Liberdade"></a>
+                </ul>
+                <ul class="filme">
+                    <a href="https://youtu.be/2O4gbUktWss" target="_blank"><img class="thumb" src="img/forrestGump.jpg" alt="Poster do Filme Forrest Gump"></a>
+                </ul>
+                <ul class="filme">
+                    <a href="https://youtu.be/8zscp5a7gk0" target="_blank"><img class="thumb" src="img/lalaLand.jpg" alt="Poster do Filme LaLaLand"></a>
+                </ul>
+                <ul class="filme">
+                    <a href="https://youtu.be/za_ay2GrxJU" target="_blank"><img class="thumb" src="img/ondeOsFracosNãoTemVez.jpg" alt="Poster do Filme Onde os Fracos Não Tem Vez"></a>
+                </ul>
+            </div>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito com ♥️ na Labenu por Felipe</p>
+        <div class="midias">
+            <h3>Mídias</h3>
+            <a target="_blank" href="https://github.com/Felipe-Gosling"><img src="https://img.icons8.com/material-outlined/96/FFFFFF/github.png"/></a>
+            <a target="_blank" href="https://www.linkedin.com/in/felipe-almeida-6a5036207/"><img src="https://img.icons8.com/material/96/FFFFFF/linkedin--v1.png"/></a>
+            <a target="_blank" href="https://www.facebook.com/felipe.g.oo.9"><img src="https://img.icons8.com/material/96/FFFFFF/facebook--v1.png"/></a>
+        </div>
+    </footer>
+
+</body>
+</html>
