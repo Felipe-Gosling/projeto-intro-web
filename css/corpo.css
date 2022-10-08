@@ -3,6 +3,7 @@ main {
     color: white;
     display: flex;
     flex-direction: column;
+    height: 100%;
     padding: 3em 6em;
 }
 
@@ -79,7 +80,7 @@ h2 {
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .pesquisa > input {
-        width: 100%;
+        width: 80%;
     }
 
     main {
