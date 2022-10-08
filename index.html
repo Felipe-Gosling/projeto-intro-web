@@ -36,30 +36,20 @@
         <!-- Pesquisa -->
         <section class="pesquisa">
             <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar por título">
-            <button name="botaoPesquisar">
-                <img src="/img/iconePesquisa.png" alt="">
+            <button name="botaoPesquisar" onclick="pesquisar()">
+                <img src="img/iconePesquisa.png" alt="">
             </button>
         </section>
 
         <!-- Filmes/Séries -->
         <section>
             <h2>Filmes</h2>
-            <div>
-                <ul class="filme">
-                    <a href="https://youtu.be/NlqVxm0azMk" target="_blank"><img class="thumb" src="img/clubeDaLuta.jpg" alt="Poster do Filme Clube da Luta"></a>
-                </ul>
-                <ul class="filme">
-                    <a href="https://youtu.be/VJ6Dk2_dp7M" target="_blank"><img class="thumb" src="img/sonhoDeLiberdade.png" alt="Poster do Filme Um Sonho de Liberdade"></a>
-                </ul>
-                <ul class="filme">
-                    <a href="https://youtu.be/2O4gbUktWss" target="_blank"><img class="thumb" src="img/forrestGump.jpg" alt="Poster do Filme Forrest Gump"></a>
-                </ul>
-                <ul class="filme">
-                    <a href="https://youtu.be/8zscp5a7gk0" target="_blank"><img class="thumb" src="img/lalaLand.jpg" alt="Poster do Filme LaLaLand"></a>
-                </ul>
-                <ul class="filme">
-                    <a href="https://youtu.be/za_ay2GrxJU" target="_blank"><img class="thumb" src="img/ondeOsFracosNãoTemVez.jpg" alt="Poster do Filme Onde os Fracos Não Tem Vez"></a>
-                </ul>
+            <div id="container">
+                <ul class="filme"></ul>
+                <ul class="filme"></ul>
+                <ul class="filme"></ul>
+                <ul class="filme"></ul>
+                <ul class="filme"></ul>
             </div>
             
         </section>
