@@ -1,7 +1,14 @@
-# Projeto de Introdução ao desenvolvimento web
+# Labemovies
 
-Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, vamos praticar a estrutura do que faremos pelo curso todo. O objetivo é construir uma página estilizada, e com **lista** e **busca** utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
+Este é o projeto Labemovies, um website desenvolvido como parte do curso de Introdução a Web da turma Labenu D, pelo aluno Felipe Gustavo. O projeto consiste em uma página que exibe informações sobre filmes e permite a pesquisa por título.
 
+![Preview](https://github.com/FelipeG-Almeida/projeto-intro-web/assets/73674044/24f5c4fc-5a92-4be4-81e1-839297f778a7)
+
+## Tecnologias utilizadas e Conteúdo abordado
+
+- HTML
+- CSS
+- JavaScript
 - Variáveis
 - Operadores
 - Strings
@@ -11,52 +18,35 @@ Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, 
 - Laços
 - Funções
 - Funções de Array
-- HTML e CSS
 - Flex e Grid
 - DOM e responsividade
 
-## Enunciado
+## Estrutura do projeto
 
-A página consiste em um HTML, ligado a um ou mais arquivos CSS, e um ou mais arquivos JS (recomendamos apenas um de cada, no entanto). O objetivo é conseguir criar uma página estática, depois estilizada, e por fim, dinâmica. A página vai catalogar (ou listar) itens que você escolher, e deve possuir um sistema simples de busca, que recebe um texto, e procura por nomes/títulos que correspondam a este texto.
+O projeto é composto por três arquivos principais:
 
+- **index.html**: Contém a estrutura HTML da página, incluindo cabeçalho, corpo e rodapé. Também possui referências a arquivos CSS e JavaScript externos, além de incluir o conteúdo dinâmico dos filmes.
+- **style.css**: Arquivo CSS que contém estilos para a página em geral.
+- **script.js**: Arquivo JavaScript que contém a lógica do projeto, incluindo a definição dos filmes, a renderização dos elementos na página e a função de pesquisa.
 
+Além desses arquivos, o projeto também possui uma pasta de imagens (`img`) com os posters dos filmes e ícones de redes sociais.
 
-[Exemplo](https://user-images.githubusercontent.com/11279432/180304632-97d6705d-100c-4272-8255-8aae19813700.mov)
+## Como executar o projeto
 
+1. Faça o download dos arquivos `index.html`, `style.css`, `script.js` e a pasta `img`.
+2. Coloque os arquivos em um diretório local no seu computador.
+3. Abra o arquivo `index.html` em um navegador web.
 
+## Funcionalidades do projeto
 
-### Lista de requisitos
+- Exibição dos filmes: A página exibe informações sobre cinco filmes diferentes, incluindo título, sinopse, duração, ano, gênero, diretor e elenco. Também exibe um poster do filme, que pode ser clicado para abrir o trailer em uma nova guia.
+- Pesquisa por título: O usuário pode digitar o título de um filme na caixa de pesquisa e clicar no botão de pesquisa para filtrar os filmes exibidos na página. O resultado da pesquisa será exibido abaixo da caixa de pesquisa.
+- Estilização responsiva: O projeto utiliza técnicas de CSS responsivo para se adaptar a diferentes tamanhos de tela, proporcionando uma experiência agradável em dispositivos móveis e desktops.
 
-- [ ]  Tela de listagem com título
-- [ ]  Cabeçalho na página
-- [ ]  Área principal com barra de pesquisa e botão
-- [ ]  Espaço para lista dos itens
-- [ ]  ao menos três itens listados
-- [ ]  Itens listados **utilizando manipulação do DOM**
-- [ ]  Rodapé na página com identificação
-- [ ]  Barra de pesquisa com alerta se tentar pesquisar com campo em branco
-- [ ]  Clique do botão executa busca entre os itens
-- [ ]  Relatório impresso no console com as informações de cada item
-- [ ]  Nome/título dos itens em letras maiúsculas
-- [ ]  Média numérica calculada e impressa no console
-- [ ]  Verificação de valores booleanos true impressa no console
-- [ ]  Utilização de Grid ou Flex para estilizar
-- [ ]  Atenção ao padrão de estilização enviado
+## Contato
 
-### Instruções de entrega
+- [GitHub](https://github.com/Felipe-Gosling)
+- [LinkedIn](https://www.linkedin.com/in/felipe-almeida-6a5036207/)
+- [Facebook](https://www.facebook.com/felipe.g.oo.9)
 
-- Faça o fork desse repositório e realize o clone da sua cópia `seu-nome-de-usuario/projeto-intro-web`.
-   <details>
-   <summary>Quer uma dica?</summary>
-   <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Ffork.png?alt=media&token=7030e997-246a-41fe-a75f-2a2ced61e54d" alt="Como adicionar o projeto no repositório"/>
-   </details>
-- Crie os arquivos do projeto dentro deste repo;
-- Execute o fluxo de entrega do git. **Lembre-se de abrir os PRs para seu próprio repositório.**
-- Para isso, você precisará fazer o projeto utilizando **branches**. Evite fazer as alterações direto na branch ```main```
-    <details>
-       <summary>Dúvidas sobre o Git & Github?</summary>
-       <p>Adiciomos um vídeo explicando o <strong>processo de entrega</strong> [do fork ao pull request] no Material Assincrono da <a href="https://classroom.google.com/w/NTM0NjA2NDg3MjIx/tc/NTM2NDg5NTQyODg4">A005 - Git e Github</a>. Esse vídeo também exemplifica situações que podem acontecer durante o fluxo de utilização do Git.</p>
-    </details>
-- Entregue o **link do repo** no [Formulário de entrega](https://forms.gle/Q1mXTJFxwVUgUnrZA).
-
-**Opcional**: Tente utilizar o **Github pages** para fazer o deploy do seu projeto.
+---
