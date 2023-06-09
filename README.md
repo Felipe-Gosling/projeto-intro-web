@@ -2,6 +2,8 @@
 
 Este é o projeto Labemovies, um website desenvolvido como parte do curso de Introdução a Web da turma Labenu D, pelo aluno Felipe Gustavo. O projeto consiste em uma página que exibe informações sobre filmes e permite a pesquisa por título.
 
+<p align="center"><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="shields"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" alt="shields"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="shields"></p>
+
 ## 🎥 Demonstração
 
 ### Desktop
